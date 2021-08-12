@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR START */
+
+nav{
+    background-color: rgb(238, 237, 161);
+}
+/* .active{
+    border-bottom: 3px solid orange;
+    padding-bottom: 0px;
+} */
+.nav-item{
+    margin:0  10px;
+    padding-bottom: 0px;
+    /* border: 1px solid black;
+    padding: 0px 5px;
+    border-radius: 20px; */
+    /* transition: 0.5s all; */
+ }
+ .nav-item :hover{
+    /* border-bottom: 3px solid orange;
+    padding-bottom: 1px; */
+    font-weight: 500;
+    /* border-radius: 5px; */
+    /* color: orange; */
+ }
+ .login{
+    padding: 30px;
+}
+
+/* #loginModal input :not(.form-check){
+    width: 100px;
+} */
+#loginModal .modal-body{
+    /* align-items: center; */
+    margin: auto;
+}
+#loginModal .form-control{
+    width: 18 rem;
+    /* margin: auto; */
+}
+#loginModal button{
+    width: 80px;
+    margin: auto;
+} 
+
+/* NAVBAR ENDS */
+
+
+/* ABOUT   STARTS */
+
+
+
+
+
+ #image{
+    width: 19rem;
+
+}
+#text{
+    background-image: url(C:\Users\NIKHIL\Downloads\balloons-154949_1280.png);
+    background-size: cover;
+    /* max-width: 680px; */
+    height: auto;
+    display: flex;
+    /* display: inline-flex; */
+    text-align: center !important;
+    /* align-items: center; */
+    
+    justify-content: center;
+    
+    height: auto;
+    /* margin:40px auto 62px; */
+}
+#text div{
+    margin: 20px 30px 20px 30px;
+  
+    /* flex-wrap: wrap; */
+}
+#t p{
+    width: 400px ;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 18px;
+    /* height: auto; */
+    text-align: center;
+}
+/* #image img{
+    border: 0px solid white;
+    border-radius: 15%;
+} */
+
+.about{
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* background-color: antiquewhite;
+    background: cover; */
+}
+/* .about img{
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+} */
+
+
+/*  STYLE FOR CARDS */
+
+.cards{
+background-color: #fdf6ed;
+/* margin-top: 40px; */
+padding-bottom: 20px;
+justify-content: center;
+/* margin: 0 50px; */
+}
+
+.card{
+    width: 70%;
+    height: auto;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin: auto;
+}
+#card-head{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+#box{
+    z-index: 0;
+    transition: 0.2s all;
+    position: relative;
+}
+#box:hover{
+    z-index: 1;
+ box-shadow: 4px 8px 10px rgba(0, 0, 0, 0) ;
+
+ transform: scale(1.05);
+ /* transform: translateY(-20px); */
+}
+
+
+
+/* END OF STYLES FOR CARDS */
